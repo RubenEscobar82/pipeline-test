@@ -111,6 +111,11 @@ export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  }  
+  methods: {
+    failedMethod() {
+      console.log(madeUpVaiable.field)
+    }
   }
 }
 </script>
