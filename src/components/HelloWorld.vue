@@ -110,7 +110,10 @@
 export default {
   name: 'HelloWorld',
   props: {
-    msg: ''
+    msg: {
+      type: String,
+      default: ''
+    }
   },  
   methods: {
     log() {
