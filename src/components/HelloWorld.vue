@@ -113,8 +113,8 @@ export default {
     msg: String
   },  
   methods: {
-    failedMethod() {
-      console.log(madeUpVaiable.field)
+    log() {
+      console.log('hello world')
     }
   }
 }
